@@ -8,6 +8,33 @@
 html {
   font-size: 62.5%;
 }
+@media (max-width: 480px) {
+  html {
+    font-size: 50%; /* Even smaller font size */
+  }
+
+  .cards {
+    grid-template-columns: 1fr; /* 1 card in a row */
+  }
+
+  .pokemon-name {
+    font-size: 2.4rem;
+  }
+
+  .pokemon-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .pokemon-highlight p {
+    font-size: 1.4rem;
+    padding: 0.4rem 1.2rem;
+  }
+
+  input[type="text"] {
+    width: 95%;
+  }
+}
 
 body {
   width: 100%;
